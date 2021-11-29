@@ -1,0 +1,17 @@
+{
+    "name": "agust/bienesraices",
+    "description": "Creando un proyecto con POO en php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Agustin Escobar",
+            "email": "agustinescobar@hotmail.com.ar"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "app\\" : "./clases"
+        }
+    }
+}

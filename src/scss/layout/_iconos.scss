@@ -1,0 +1,11 @@
+.iconos-contenido{
+    @include tablet{
+        @include grid(3 , $separacion);
+    
+    }
+}
+.icono{
+    img{
+        max-height: 10rem;
+    }
+}
